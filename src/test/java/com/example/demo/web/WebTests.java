@@ -57,3 +57,4 @@ class WebTests {
                 .andExpect(status().is4xxClientError())
                 .andReturn();
     }
+}
